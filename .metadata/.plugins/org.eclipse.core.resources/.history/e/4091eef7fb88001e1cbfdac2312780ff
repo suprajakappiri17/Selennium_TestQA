@@ -1,0 +1,18 @@
+package package1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.*;
+public class BrowserLaunch {
+
+	public static void main(String[] args) {
+		//TC - 1 lauch edge browser
+		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
+		WebDriver driver=new EdgeDriver();
+		
+		// Go to the test URL
+		driver.get("https://www.facebook.com/login.php");
+		
+		
+	}
+
+}
