@@ -1,0 +1,26 @@
+package package1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Locators1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		//TC 1- lauch edge browser and navigate to facebook URL
+		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.facebook.com/login.php");
+		
+		//TC 2 -click on  Sign up for Facebook link then it will move to signup page
+		driver.findElement(By.xpath("//a[text()='Sign up for Facebook']")).click();
+		Thread.sleep(5000);
+		
+		driver.close();
+		
+		//TC 3 -enter required deatils of user
+
+	}
+
+}

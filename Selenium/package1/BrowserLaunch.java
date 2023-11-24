@@ -29,6 +29,7 @@ public class BrowserLaunch {
 		// TC - 6 manage the bwoser window to minimize
 		driver.manage().window().minimize();
 		Thread.sleep(5000);
+		
 
 		// TC 7 close the browser
 		driver.close();
