@@ -17,17 +17,17 @@ public class Dropdown {
 				driver.findElement(By.xpath("//a[text()='Sign up for Facebook']")).click();
 				Thread.sleep(5000);
 				
-				//select day drop down value
+				//TC - 3 select day drop down value
 				Select day=new Select(driver.findElement(By.id("day")));
 				day.selectByValue("20");
 				Thread.sleep(5000);
 				
-				//select month drop down value
+				//TC - 4 select month drop down value
 				Select month=new Select(driver.findElement(By.name("birthday_month")));
 				month.selectByValue("8");
 				Thread.sleep(5000);
 				
-				//select year drop down value
+				//TC - 5 select year drop down value
 				Select year=new Select(driver.findElement(By.id("year")));
 				year.selectByValue("2001");
 				Thread.sleep(5000);

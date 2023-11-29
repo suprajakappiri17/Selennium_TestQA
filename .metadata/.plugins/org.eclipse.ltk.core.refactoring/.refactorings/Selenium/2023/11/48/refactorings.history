@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;package1.RelativeLocator&apos; to &apos;RelativeLocatorExample&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;package1.RelativeLocator&apos;&#x0D;&#x0A;- Renamed element: &apos;package1.RelativeLocatorExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RelativeLocator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;package1{RelativeLocator.java[RelativeLocator" matchStrategy="1" name="RelativeLocatorExample" qualified="false" references="true" similarDeclarations="false" stamp="1701237393889" textual="false" version="1.0"/>
+</session>
