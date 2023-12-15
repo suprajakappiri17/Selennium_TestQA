@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Eclipse_Workspace1\Selenium"/>
 			<item value="E:\Eclipse_Workspace1\Selenium\Test1.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,12 +46,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="mm"/>
+			<item value="MavenTest"/>
+			<item value="Test"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="nn"/>
+			<item value="MavenTest"/>
+			<item value="Test1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
