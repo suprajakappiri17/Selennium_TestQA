@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-15T11:56:52 IST" name="Default suite" finished-at="2023-12-15T11:57:14 IST" duration-ms="21851">
+  <suite started-at="2023-12-18T12:07:24 IST" name="Default suite" finished-at="2023-12-18T12:07:24 IST" duration-ms="204">
     <groups>
+      <group name="E2E">
+        <method signature="groupsTest1.test12()[pri:0, instance:groupsTest.groupsTest1@17497425]" name="test12" class="groupsTest.groupsTest1"/>
+        <method signature="groupsTest1.test13()[pri:0, instance:groupsTest.groupsTest1@17497425]" name="test13" class="groupsTest.groupsTest1"/>
+      </group> <!-- E2E -->
+      <group name="sanity">
+        <method signature="groupsTest1.test10()[pri:0, instance:groupsTest.groupsTest1@17497425]" name="test10" class="groupsTest.groupsTest1"/>
+        <method signature="groupsTest1.test11()[pri:0, instance:groupsTest.groupsTest1@17497425]" name="test11" class="groupsTest.groupsTest1"/>
+        <method signature="groupsTest1.test14()[pri:0, instance:groupsTest.groupsTest1@17497425]" name="test14" class="groupsTest.groupsTest1"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-12-15T11:56:52 IST" name="Default test" finished-at="2023-12-15T11:57:14 IST" duration-ms="21851">
-      <class name="testNGpractice.Test1">
-        <test-method signature="testcase1()[pri:0, instance:testNGpractice.Test1@1de5f259]" started-at="2023-12-15T11:56:52 IST" name="testcase1" finished-at="2023-12-15T11:57:03 IST" duration-ms="10853" status="PASS">
+    <test started-at="2023-12-18T12:07:24 IST" name="Default test" finished-at="2023-12-18T12:07:24 IST" duration-ms="204">
+      <class name="groupsTest.groupsTest1">
+        <test-method signature="test10()[pri:0, instance:groupsTest.groupsTest1@17497425]" started-at="2023-12-18T12:07:24 IST" name="test10" finished-at="2023-12-18T12:07:24 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:0, instance:testNGpractice.Test1@1de5f259]" started-at="2023-12-15T11:57:03 IST" name="testcase2" finished-at="2023-12-15T11:57:08 IST" duration-ms="5072" status="PASS">
+        </test-method> <!-- test10 -->
+        <test-method signature="test11()[pri:0, instance:groupsTest.groupsTest1@17497425]" started-at="2023-12-18T12:07:24 IST" name="test11" finished-at="2023-12-18T12:07:24 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:testNGpractice.Test1@1de5f259]" started-at="2023-12-15T11:57:08 IST" name="testcase3" finished-at="2023-12-15T11:57:14 IST" duration-ms="5328" status="PASS">
+        </test-method> <!-- test11 -->
+        <test-method signature="test12()[pri:0, instance:groupsTest.groupsTest1@17497425]" started-at="2023-12-18T12:07:24 IST" name="test12" finished-at="2023-12-18T12:07:24 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method signature="testcase5()[pri:0, instance:testNGpractice.Test1@1de5f259]" started-at="2023-12-15T11:57:14 IST" name="testcase5" finished-at="2023-12-15T11:57:14 IST" duration-ms="468" status="PASS">
+        </test-method> <!-- test12 -->
+        <test-method signature="test13()[pri:0, instance:groupsTest.groupsTest1@17497425]" started-at="2023-12-18T12:07:24 IST" name="test13" finished-at="2023-12-18T12:07:24 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase5 -->
-      </class> <!-- testNGpractice.Test1 -->
+        </test-method> <!-- test13 -->
+        <test-method signature="test14()[pri:0, instance:groupsTest.groupsTest1@17497425]" started-at="2023-12-18T12:07:24 IST" name="test14" finished-at="2023-12-18T12:07:24 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+      </class> <!-- groupsTest.groupsTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
