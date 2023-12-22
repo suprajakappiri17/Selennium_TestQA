@@ -2,12 +2,14 @@ package parallelExe;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class ParallelTest4 {
 	WebDriver driver;
 
-  @Test
+  @BeforeTest
   public void testcase1() throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
 		 driver = new EdgeDriver();
@@ -37,7 +39,7 @@ public class ParallelTest4 {
 	  
   }
   
-  @Test
+  @AfterTest
   public void testcase5() {
 		driver.close();
 	  

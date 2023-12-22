@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGpractice.Test1">
+      <class name="parallelExe.ParallelTest2">
         <methods>
-          <include name="testcase4"/>
+          <include name="beforemethod"/>
+          <include name="testcase3"/>
+          <include name="afteremthod"/>
         </methods>
-      </class> <!-- testNGpractice.Test1 -->
+      </class> <!-- parallelExe.ParallelTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

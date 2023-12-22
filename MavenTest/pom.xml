@@ -22,5 +22,10 @@
     <scope>test</scope>
 </dependency>
 
-</dependencies>
+  	<dependency>
+  		<groupId>mm</groupId>
+  		<artifactId>nn</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
