@@ -1,47 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T11:38:40 IST" name="Default suite" finished-at="2023-12-22T11:39:07 IST" duration-ms="27735">
+  <suite started-at="2023-12-26T12:48:36 IST" name="Default suite" finished-at="2023-12-26T12:48:46 IST" duration-ms="10022">
     <groups>
     </groups>
-    <test started-at="2023-12-22T11:38:40 IST" name="Default test" finished-at="2023-12-22T11:39:07 IST" duration-ms="27735">
-      <class name="parallelExe.ParallelTest2">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:parallelExe.ParallelTest2@121314f7]" started-at="2023-12-22T11:38:40 IST" name="beforemethod" finished-at="2023-12-22T11:38:52 IST" duration-ms="12463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="testcase1()[pri:0, instance:parallelExe.ParallelTest2@121314f7]" started-at="2023-12-22T11:38:52 IST" name="testcase1" finished-at="2023-12-22T11:39:03 IST" duration-ms="10819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method signature="testcase2()[pri:0, instance:parallelExe.ParallelTest2@121314f7]" started-at="2023-12-22T11:39:03 IST" name="testcase2" finished-at="2023-12-22T11:39:07 IST" duration-ms="3980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method signature="testcase3()[pri:0, instance:parallelExe.ParallelTest2@121314f7]" started-at="2023-12-22T11:39:07 IST" name="testcase3" finished-at="2023-12-22T11:39:07 IST" duration-ms="119" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2023-12-26T12:48:36 IST" name="Default test" finished-at="2023-12-26T12:48:46 IST" duration-ms="10022">
+      <class name="dataProviderCo.TestAsset">
+        <test-method signature="assertEx()[pri:0, instance:dataProviderCo.TestAsset@1de5f259]" started-at="2023-12-26T12:48:36 IST" name="assertEx" finished-at="2023-12-26T12:48:46 IST" duration-ms="9911" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign up for Facebook']"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: MicrosoftEdge=120.0.2210.91)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1d928b04aac1ee4fcc902c56245bb680, findElement {using=xpath, value=//a[text()='Sign up for Facebook']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61336}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61336/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d928b04aac1ee4fcc902c56245bb680]]>
+Command: [15b18297cb6b8b287f1ce3bb1b03bd24, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54504}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54504/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15b18297cb6b8b287f1ce3bb1b03bd24]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Sign up for Facebook']"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: MicrosoftEdge=120.0.2210.91)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1d928b04aac1ee4fcc902c56245bb680, findElement {using=xpath, value=//a[text()='Sign up for Facebook']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61336}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61336/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d928b04aac1ee4fcc902c56245bb680
+Command: [15b18297cb6b8b287f1ce3bb1b03bd24, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54504}, msedge: {msedgedriverVersion: 119.0.2151.72 (e8225cce8e47..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54504/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15b18297cb6b8b287f1ce3bb1b03bd24
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,11 +42,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at parallelExe.ParallelTest2.testcase3(ParallelTest2.java:45)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:310)
+at dataProviderCo.TestAsset.assertEx(TestAsset.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,15 +76,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method is-config="true" signature="afteremthod()[pri:0, instance:parallelExe.ParallelTest2@121314f7]" started-at="2023-12-22T11:39:07 IST" name="afteremthod" finished-at="2023-12-22T11:39:07 IST" duration-ms="191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afteremthod -->
-      </class> <!-- parallelExe.ParallelTest2 -->
+        </test-method> <!-- assertEx -->
+      </class> <!-- dataProviderCo.TestAsset -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parallelExe.ParallelTest2">
+      <class name="dataProviderCo.TestAsset">
         <methods>
-          <include name="beforemethod"/>
-          <include name="testcase3"/>
-          <include name="afteremthod"/>
+          <include name="assertEx"/>
         </methods>
-      </class> <!-- parallelExe.ParallelTest2 -->
+      </class> <!-- dataProviderCo.TestAsset -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

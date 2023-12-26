@@ -23,4 +23,8 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.io.FileHandler"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
 </qualifiedTypeNameHistroy>
