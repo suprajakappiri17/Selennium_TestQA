@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataProviderCo.TestAsset">
+      <class name="testNGpractice.DependsOnMethodsEx">
         <methods>
-          <include name="assertEx"/>
+          <include name="testpre"/>
+          <include name="testpro"/>
         </methods>
-      </class> <!-- dataProviderCo.TestAsset -->
+      </class> <!-- testNGpractice.DependsOnMethodsEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
