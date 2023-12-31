@@ -18,6 +18,7 @@ public class PropertiesEx {
 
 		String URL = pro.getProperty("myUrl");    //https://www.facebook.com
 		System.out.println("my URL is  :   " + URL);
+		String exeTitle=pro.getProperty("expectedTitle");
 
 		// TC - 1 lauch edge browser
 		System.setProperty("webdriver.edge.driver", "E:\\msedgedriver.exe");
